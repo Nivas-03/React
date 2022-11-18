@@ -1,0 +1,79 @@
+.login {
+    height: 100vh;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .card {
+        display: flex;
+        background-color: aliceblue;
+        width: 50%;
+        border-radius: 10px;
+        min-height: 500px;
+        overflow: hidden;
+
+        .left {
+            flex: 1;
+            background: linear-gradient(rgb(188, 188, 243), rgb(119, 248, 119));
+            padding: 50px;
+            display: flex;
+            background-size: cover;
+            flex-direction: column;
+            color: rgb(85, 133, 245);
+            gap: 10px;
+
+            h1 {
+                color: black;
+                font-size: 50px;
+            }
+
+            p {}
+
+            button {
+                width: 50%;
+                padding: 10px;
+                border: none;
+                font-weight: 550;
+                color: rgb(39, 39, 39);
+                cursor: pointer;
+
+            }
+        }
+
+        .right {
+            flex: 1;
+            padding: 50px;
+            gap: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            h1 {
+                color: rgb(49, 49, 49);
+            }
+
+            form {
+                display: flex;
+                flex-direction: column;
+                gap: 40px;
+
+                input {
+                    border: none;
+                    border-bottom: 1px solid lightgray;
+                    padding: 15px 10px;
+                }
+
+                button {
+                    width: 50%;
+                    padding: 10px;
+                    border: none;
+                    font-weight: 550;
+                    color: rgb(39, 39, 39);
+                    cursor: pointer;
+                    background-color: rgb(188, 188, 243);
+                }
+            }
+        }
+    }
+}
